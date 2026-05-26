@@ -1,11 +1,11 @@
 # Lab: Changing File Ownership — `chown` and `chgrp`
 
-**Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
-**Subjects covered:** POSIX owner and group fields, `chown user:group`, `chown user.` / `chown :group`, recursive `-R`, `chgrp` as a focused group changer, impact on quota and backup ACLs, verifying with `ls -l` and `stat`
-**Career arcs covered:** RHCSA (EX200 ownership normalization tasks), RHCE (`ansible.builtin.file` `owner`/`group`), SRE (service account migrations), DevOps (fixing UID drift in bind mounts), AI/MLOps (shared cache directories across training users)
-**Prerequisite:** Lab 40 (Standard File Permissions) — you can read `ls -l` triplets
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 inventory · 2 user-only `chown` · 3 group with `chgrp` and `chown :grp` · 4 combined `user:group` · 5 recursive tree · 6 capstone + cleanup
+- **Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
+- **Subjects covered:** POSIX owner and group fields, `chown user:group`, `chown user.` / `chown :group`, recursive `-R`, `chgrp` as a focused group changer, impact on quota and backup ACLs, verifying with `ls -l` and `stat`
+- **Career arcs covered:** RHCSA (EX200 ownership normalization tasks), RHCE (`ansible.builtin.file` `owner`/`group`), SRE (service account migrations), DevOps (fixing UID drift in bind mounts), AI/MLOps (shared cache directories across training users)
+- **Prerequisite:** Lab 40 (Standard File Permissions) — you can read `ls -l` triplets
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 inventory · 2 user-only `chown` · 3 group with `chgrp` and `chown :grp` · 4 combined `user:group` · 5 recursive tree · 6 capstone + cleanup
 
 ---
 
